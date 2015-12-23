@@ -1,0 +1,32 @@
+{
+  "name": "testsample",
+  "version": "1.0.0",
+  "description": "Testing with Karma and Jasmine.",
+  "main": "index.html",
+  "scripts": {
+    "test": "karma start karma.config",
+    "serve": "php -S localhost:5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timbergus/testsample.git"
+  },
+  "keywords": [
+    "karma",
+    "jasmine"
+  ],
+  "author": "Gustavo Muñoz <timbergus@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/timbergus/testsample/issues"
+  },
+  "homepage": "https://github.com/timbergus/testsample#readme",
+  "dependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-node": "^1.14.5",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.6"
+  }
+}

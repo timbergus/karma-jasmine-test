@@ -1,0 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Frijole);
+
+body {
+	font-family: 'Frijole', cursive;
+	font-weight: 400;
+	font-size: 2em;
+	color: blue;
+}
